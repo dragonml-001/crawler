@@ -180,7 +180,7 @@ def save_to_excel(data, filename="YouTube评论.xlsx"):
     print(f'✅ 完成！文件已保存为：{filename}')
 
 def main():
-    url = 'https://www.youtube.com/watch?v=6ttRK5OMxf4'
+    url = 'https://www.youtube.com/watch?v=33bZIOLX4do'
     print('启动浏览器并打开页面...')
     page = ChromiumPage()
     page.get(url)
