@@ -185,6 +185,9 @@ def main():
     page = ChromiumPage()
     page.get(url)
 
+    page.scroll.down(400)
+    time.sleep(2)
+    
     try:
         load_comments(page)  # 加载评论
         expand_replies(page)  # 展开回复
