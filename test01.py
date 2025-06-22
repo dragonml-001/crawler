@@ -185,7 +185,7 @@ def main():
     page = ChromiumPage()
     page.get(url)
 
-    page.scroll.down(400)
+    page.scroll.down(800)
     time.sleep(2)
     
     try:
